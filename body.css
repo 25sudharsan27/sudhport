@@ -1,0 +1,552 @@
+.box{
+    display:flex;
+    /* justify-content: center; */
+    justify-content:center;
+    align-items: center;
+    height:300px;
+    width:300px;
+    background-color:#119650;
+    border-radius:70px;
+    rotate: 0 0 1 -5deg;
+    color:white;
+    box-shadow: 25px 25px 0px 0px #000000;
+    margin-left:-80px;
+    
+}
+.lin{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+    color:white;
+    border-radius:25px;
+    content-visibility: hidden;
+
+}
+
+.lin:hover{
+    margin-left:10px;
+    transition:0.4s;
+    
+}
+.box:hover,.box2:hover{
+    padding-bottom:20px;
+    /* border:1px solid rgb(85, 229, 229); */
+    box-shadow:none;
+    rotate: 0 0 1 0deg;
+    animation-fill-mode: forwards;
+    transition:0.8s;
+    .boxname{
+        content-visibility: hidden;
+    }
+    .boxname1{
+        margin-top:0px;
+        transition: 0.8s;
+    }
+    .lin{
+        background-color:white;
+        margin-top:20px;
+        height:45px;
+        width:100px;
+        content-visibility: visible;
+        transition: 0.8s;
+
+    }
+    .lin a{
+        color:#119650;
+    }
+    #lin1 a{
+        color:black;
+    }
+  
+ }
+
+.box2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    width:300px;
+    background-color:black;
+    border-radius:70px;
+    rotate: 0 0 1 5deg;
+    color:white;
+    box-shadow: 25px 25px 0px 0px #011724;
+}
+.skill2{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#skill2{
+    margin-left:-40px;
+    margin-top:100px;
+}
+
+
+.boxname{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bold;
+    font-size:30px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+
+}
+.boxname1{
+    width:250px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction:column;
+    font-family:'League Spartan', sans-serif; 
+    font-size:20px; 
+    height:100px;
+    margin-top:40px;
+    padding-left:10px;
+    color:rgb(255, 255, 255);
+
+
+}
+#boxname{
+    font-size:25px;
+}
+.skill{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+/* description */
+
+.description{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width:50%;
+    color:white;
+    margin-left:100px;
+    margin-right:-50px;
+
+}
+.description1{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width:100%;
+    margin:30px;
+    /* margin-left:180px; */
+    color:white;
+}
+
+.description1b{
+    margin:20px;
+}
+
+.skill{
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#date{
+    font-family: 'League Spartan', sans-serif;  
+    font-size:60px;
+    margin:none;
+}
+#contributors{
+    font-family: 'Alice', serif;
+    font-size:20px;
+}
+.description1a{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.description1b{
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+
+}
+#date1{
+    font-family: 'Lato', sans-serif;
+    font-size:25px;
+    font-weight: bolder;
+    margin-right:30px;
+}
+#date2{
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+
+}
+.experiences{
+    font-family:'League Spartan', sans-serif;
+    color:rgb(23, 167, 92);
+    
+}
+.experiences1{
+    font-size:60px;
+    margin:70px;
+    margin-top:100px;
+}
+#ss{
+    display:flex;
+    flex-direction:column;
+    border:1px solid white;
+    height:2000px;
+}
+.skil2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction:column;
+    
+    font-family:'League Spartan', sans-serif; 
+    font-size:20px; 
+    height:100%;
+    margin-top:40px;
+    margin-bottom:50px;
+    color:rgb(255, 255, 255);
+}
+.ski{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skil3{
+    margin:70px;
+    width:300px;
+    height:350px;
+    border-radius:20px;
+    background-color: #011724;
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.skil3 h1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:150; 
+    font-size:25px; 
+    /* animation-name:identifier; */
+    color:rgba(255, 255, 255, 0.8);
+    margin-top:40px;
+}
+
+
+.skil3:hover{
+        padding-bottom:20px;
+        border:1px solid rgb(0, 0, 0);
+        box-shadow: 0 0 10px rgb(0, 0, 0);
+        animation-fill-mode: forwards;
+        transition:0.4s;
+        
+ }  
+
+
+/* .skil3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1.5px;
+    font-size:30px;
+    color:white;
+    height:300px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    flex-direction:column;
+   
+    margin:80px;
+    margin-left:120px;
+    margin-top:100px;
+}
+.skil3 p1{
+    font-size:20px;
+    padding-top: 20px;
+}
+
+.skil{
+    margin-top:40px;
+    height:400px;
+}
+*/
+.oriskil{
+    margin-top:70px;
+    display:flex;
+    justify-content: center;
+    width:100%;
+    color:rgb(255, 255, 255);
+    font-family:"League Spartan", sans-serif;
+} 
+.skil3 img{
+    border-radius:30px;
+}
+
+
+@media only screen and (max-width: 900px){
+    .skil3{
+        width:250px;
+        height:300px;
+        margin:none;
+    }
+    .skil3 img{
+        width: 150px;
+        height:150px;
+    }
+    #deepl{
+        width:200px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 850px){
+    .skil2{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        flex-direction:column;
+        
+        font-family:'League Spartan', sans-serif; 
+        font-size:20px; 
+        height:100%;
+        margin-top:20px;
+        margin-bottom:20px;
+        color:rgb(255, 255, 255);
+    }
+    .skil3{
+        width:50px;
+        height:30px;
+    }
+    .skil3 img{
+        justify-content: center;
+        align-items: center;
+        /* content-visibility:hidden; */
+        /* width:0px;
+        height:0px; */
+        /* width: 100px;
+        height:130px;
+         */
+    }
+    #deepl{
+        width:200px;
+    }
+    .skil3 h1{
+        margin-top:-2px;
+        font-size:15px;
+    }
+    .box,.box2{
+        height:250px;
+        width:250px;
+        border-radius:45px;
+        margin-top:0px;
+        
+    }
+    
+    #boxname{
+        font-size:25px;
+    }
+    .boxname1{
+        font-size:20px;
+        width:220px;
+    }
+    .skill{
+        flex-direction:column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top:50px;
+
+    }
+    .skill2{
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        margin-top:50px;
+    }
+
+    .skil3{
+        font-size:20px;
+        margin:50px;
+        margin-top:100px;
+        margin-left:30px;
+        height:200px;
+        width:80%;
+    }
+    .skil3 p1{
+        font-size:15px;
+        padding-top: 20px;
+    }
+
+
+    .description{
+        width:100%;
+        margin-left:-45px;
+    }
+    .box{
+        margin-left:10px;
+    }
+    #date{
+        font-size:45px;
+    }
+    #contributors{
+        font-size:20px;
+    }
+    #date1{
+        font-size:25px;
+    }
+    #date2{
+        font-size:20px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .skil2{
+        display:flex;
+        flex-direction:column;
+        
+        font-family:'League Spartan', sans-serif; 
+        font-size:20px; 
+        height:100%;
+        margin-top:20px;
+        margin-bottom:20px;
+        color:rgb(255, 255, 255);
+    }
+    .skill2{
+        margin-top:-70px;
+    }
+    
+    .experiences{
+        margin-top:-280px;
+        margin-left: -30px;
+        display:flex;
+        flex-direction:column;
+    }
+    #skil2{
+        margin-top:10px;
+    }
+    .box,.box2{
+        height:200px;
+        width:200px;
+        border-radius:40px;
+    }
+    #boxname{
+        font-size:20px;
+    }
+    .boxname1{
+        font-size:15px;
+        width:170px;
+    }
+    .skill{
+        flex-direction:column-reverse;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: -250px; */
+    }
+
+    .skil3{
+        font-size:20px;
+        margin:50px;
+        margin-top:100px;
+        margin-left:30px;
+        height:200px;
+        width:80%;
+    }
+    .skil3 p1{
+        font-size:15px;
+        padding-top: 20px;
+    }
+
+
+    .description{
+        width:100%;
+        margin-left:-45px;
+    }
+    .box{
+        margin-left:10px;
+    }
+    #date{
+        font-size:40px;
+    }
+    #contributors{
+        font-size:15px;
+    }
+    #date1{
+        font-size:20px;
+    }
+    #date2{
+        font-size:15px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .name{
+        margin-left:-20px;
+    }
+   .experiences1{
+    font-size:40px;
+   }
+   .skill2{
+    margin-top:-60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.experiences{
+    margin-top:-350px;
+    margin-left: -25px;
+    display:flex;
+    flex-direction:column;
+}
+.box,.box2{
+    height:200px;
+    width:200px;
+    border-radius:40px;
+}
+#boxname{
+    font-size:20px;
+}
+.boxname1{
+    font-size:15px;
+    width:170px;
+}
+.skill{
+    flex-direction:column-reverse;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: -250px; */
+}
+.description{
+    width:100%;
+    margin-left:-45px;
+}
+.box{
+    margin-left:10px;
+}
+#date{
+    font-size:40px;
+}
+#contributors{
+    font-size:15px;
+}
+#date1{
+    font-size:20px;
+}
+#date2{
+    font-size:15px;
+}
+}
+

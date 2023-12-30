@@ -4,87 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Sudharsan B @ LPU</title>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alice&family=Calligraffitti&family=Lato:wght@400;700&family=Sevillana&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style>
-        body{
-            border:0;
-            margin:0;
-            background-color:#032435;
-        }
-        .cir{
-            background: lightblue;
-            border-radius: 50%;
-            width: 140px;
-            height: 140px;
-            position: absolute;
-            top:-57px;
-            left:-57px;
-        }
-        #second{
-            background-color:#179151;
-            top:-80px;
-            left:-80px;
-            width: 160px;
-            height: 160px;
-        }
-       
-        
-        .navbar-custom .navbar-brand, .navbar-custom .navbar-nav .nav-link {
-            color: #fff; /* Change the font color as needed */
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-weight: thin;
-        }
-        .navbar-custom .navbar-toggler-icon {
-            background-color: #fff; /* Change the toggle icon color as needed */
-            
-        }
-        
-        .nav-item{
-            display:flex; 
-            align-items: center; 
-            justify-self: center;
-            font-size:large;
-            margin-left:10px;
-            margin-right:10px;
-        }
-        
-        
-        .bt1,.bt2,.bt3,.bt4{
-            display:flex;
-            align-items:center;
-            
-        }
-        
-        .bt1:hover,.bt2:hover,.bt3:hover,.bt4:hover{        
-            padding-bottom:15px;
-            transition:0.3s;
-            border-bottom:2px solid white;
-        }
-        .row{
-            color:white;
-            font-family: 'League Spartan', sans-serif;  
-            padding-top:150px;      
-        }
-        .col-lg-7, .col-lg-5{
-           padding:50px;
-           
-           display:flex;
-              align-items:center;
-              justify-self: center;
-        }
-        .row{
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./body.css">
+    <link rel="stylesheet" href="./footer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
 
-            padding:5%;
-            justify-content:center;
-            align-self:center;
-            padding-top:150px;
-        }
-        
-    </style>
+
 </head>
 <body>
 
@@ -114,21 +47,21 @@
                 <li class="nav-item" >
                     <div class="bt2">
                         <div class="bt"><img src="button-48.png" class="imag" height="20px" width="20px" alt=""></div>
-                        <a class="nav-link" href="index.html">Experience</a>
+                        <a class="nav-link" href="#a">Experience</a>
                     </div>
                     
                 </li>
                 <li class="nav-item " >
                     <div class="bt3">
                         <div class="bt"><img src="button-48.png" class="imag" height="20px" width="20px" alt=""></div>
-                        <a class="nav-link" href="index.html">Skills</a>
+                        <a class="nav-link" href="#b">Skills</a>
                     </div>
                     
                 </li>
                 <li class="nav-item " >
                     <div class="bt4">
                         <div class="bt"><img src="button-48.png" class="imag" height="20px" width="20px" alt=""></div>
-                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link" href="#c">About</a>
                     </div>
                     
                 </li>
@@ -136,25 +69,275 @@
             </ul>
         </div>
     </nav>
-    <div class="row">
-        <div class="col-lg-7 col-md-12 col-sm-12">
-            <div>
-                <p1 style="font-size:25px; padding-right:5px;">Student </p1>
-                <p3 style="font-size:45px;">@ LPU</p3>
-                <br>
-                <h1 style="font-size:70px; font-weight: bolder;">Sudharsan B</h1>
+
+    <div class="namecontainer">
+        <div class="nameimage"><img id="nameimage2" src="./Screenshot from 2023-09-25 15-29-05.png" alt=""></div>
+
+        <div class="name">
+            <div class="name1">
+                <p1 id="nameft1">Student</p1>
+                <p3 id="nameft2">@ LPU</p3>
+            </div>
+            <div class="name2">
+                <h1 id="nameft">Sudharsan B</h1>
+
+            </div>
+        </div>
+        <div class="nameimage"><img id="nameimage1" src="./Screenshot from 2023-09-25 15-29-05.png" alt=""></div>
+    </div>
+    <div id="a"class="experiences">
+        <h1 class="experiences1">Experiences</h1>
+
+    </div>
+    <div class="skill">
+        <div class="box">
+            <div class="boxn">
+                <div class="boxname"><h1 id="boxname">Tools used</h1></div>
+            <div class="boxname1">
+                <p1>HTML</p1>
+                <p1>CSS</p1>
+                <p1>JavaScript</p1>
+                <p1>Mongodb</p1>
+                <p1>React</p1>
+                <p1>Node</p1>
+                <p1>Express</p1>
+            </div>
+            <div class="lin">
+                <a href="https://github.com/25sudharsan27/flipkart-clone">Click me</a>"
+            </div>
+            </div>
+        </div>
+        <div class="description">
+            <p1 id="date">Flipkart-Clone</p1>
+            <p2 id="contributors">Contributors: Sudharsan B</p2>
+            <div class="description1">
+                <div class="description1a">
+                    <p1 id="date1">Date</p1>
+                    <p2 id="date2">December 2023</p2>
+                </div>
+                <div class="description1b">
+                    <p1 id="date1">Description</p1>
+                    <p2 id="date2">
+                        This project is a frontend-clone of the popular e-commerce platform Flipkart. It replicates key features and functionalities to provide a similar user experience. Primary Goal of this project is to understand concepts of communcation between client server and backend server</p2>
+            </div>
+        </div>
+    </div>
+    </div>
+    <hr style="margin-top:40px;border: 1px dashed white;    rotate: 0 0 1 -2deg;" />
+    <hr style="border: 1px dashed white;    rotate: 0 0 1 -2deg;" />
+
+    <div class="skill2">
+        <div id="skill2" class="description">
+            <p1 id="date">
+                Baskara Tex Website</p1>
+            <p2 id="contributors">Contributors: Sudharsan B</p2>
+            <div class="description1">
+                <div class="description1a">
+                    <p1 id="date1">Date</p1>
+                    <p2 id="date2">October 2023</p2>
+                </div>
+                <div class="description1b">
+                    <p1 id="date1">Description</p1>
+                    <p2 id="date2">
+                        This website was totally build for the company which is Baskara Textiles and it is situated in Dindigul, Tamil Nadu.
+http://baskaratex.liveblog365.com
+or you can get by searching baskara tex in google search engine</p2>
+            </div>
+        </div>
+    </div>
+        <div class="box2">
+            <div class="boxn">
+                <div class="boxname"><h1 id="boxname">Tools used</h1></div>
+            <div class="boxname1">
+                <p1>HTML</p1>
+                <p1>CSS</p1>
+                <p1>JAVASCRIPT</p1>
+                <p1>BOOTSTRAP</p1>
+                <p1>SEO</p1>
+                <p1>Web Hosting</p1>
+                
+            </div>
+            <div id="lin1" class="lin">
+                <a href="https://github.com/25sudharsan27/baskaratex">Click me</a>"
+            </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    <hr style="margin-top:40px;border: 1px dashed white;    rotate: 0 0 1 2deg;" />
+    <hr style="border: 1px dashed white;    rotate: 0 0 1 2deg;" />
+
+
+    <div class="skill">
+        <div class="box">
+            <div class="boxn">
+                <div class="boxname"><h1 id="boxname">Tools used</h1></div>
+            <div class="boxname1">
+                <p1>Firebase</p1>
+                <p1>Redux js</p1>
+                <p1>Express</p1>
+                <p1>Node </p1>
+                <p1>CSS</p1>
+                <p1>HTML</p1>
+                <p1>JavaScript</p1>
+                <p1>React</p1>
+            </div>
+
+            <div class="lin">
+                <a href="https://github.com/25sudharsan27/amazon-clone">Click me</a>"
+            </div>
+            </div>
+        </div>
+        <div class="description">
+            <p1 id="date">Amazon-Clone</p1>
+            <p2 id="contributors">Contributors: Sudharsan B</p2>
+            <div class="description1">
+                <div class="description1a">
+                    <p1 id="date1">Date</p1>
+                    <p2 id="date2">July - August 2023</p2>
+                </div>
+                <div class="description1b">
+                    <p1 id="date1">Description</p1>
+                    <p2 id="date2">This Amazon-clone website was provided very good experience and knowledge to me, about backend api and payment transaction using stripe, apart from that I had tackled bunch of errors while creating this website.</p2>
             </div>
             
         </div>
-
-        <div class="col-lg-5 col-md-12 col-sm-12">
-            <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="400" height="400" fill="none"/><path d="M96,216H48a8,8,0,0,1-8-8V163.3a7.9,7.9,0,0,1,2.3-5.6l120-120a8,8,0,0,1,11.4,0l44.6,44.6a8,8,0,0,1,0,11.4Z" fill="none" stroke="white" stroke-linecap="#fff" stroke-linejoin="round" stroke-width="8"/><line x1="136" y1="64" x2="192" y2="120" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><polyline points="216 216 96 216 40.5 160.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><line x1="164" y1="92" x2="68" y2="188" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/></svg>
+    </div>
+    </div>
+    <hr style="margin-top:40px;border: 1px dashed white;    rotate: 0 0 1 -2deg;" />
+    <hr style="border: 1px dashed white;    rotate: 0 0 1 -2deg;" />
+    <div class="skill2">
+        <div id="skill2" class="description">
+            <p1 id="date">Dynamic-Website</p1>
+            <p2 id="contributors">Contributors: Sudharsan B</p2>
+            <div class="description1">
+                <div class="description1a">
+                    <p1 id="date1">Date</p1>
+                    <p2 id="date2">July 2023</p2>
+                </div>
+                <div class="description1b">
+                    <p1 id="date1">Description</p1>
+                    <p2 id="date2">
+                        The website I built was able to dynamically connect with the MongoDB database. This feature, which is helpful for clients to modify the name, link, and images, was present on the website. Using Mongoose, I created four schemas for queries, details, services, and slides, each containing collections of data.</p2>
+            </div>
         </div>
     </div>
+        <div class="box2">
+            <div class="boxn">
+                <div class="boxname"><h1 id="boxname">Tools used</h1></div>
+            <div class="boxname1">
+                <p1>HTML</p1>
+                <p1>CSS</p1>
+                <p1>JAVASCRIPT</p1>
+                <p1>BOOTSTRAP</p1>
+                <p1>Mongodb</p1>
+                <p1>Node</p1>
+                <p1>Express</p1>
+                
+            </div>
+            <div id="lin1" class="lin">
+                <a href="https://github.com/25sudharsan27/Dynamic_website">Click me</a>"
+            </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    <hr style="margin-top:40px;border: 1px dashed white;    rotate: 0 0 1 2deg;" />
+    <hr style="border: 1px dashed white;    rotate: 0 0 1 2deg;" />
+    <div class="skill">
+        <div class="box">
+            <div class="boxn">
+                <div class="boxname"><h1 id="boxname">Tools used</h1></div>
+            <div class="boxname1">
+                <p1>Artifical L</p1>
+                <p1>Deep L</p1>
+                <p1>Python</p1>
+                <p1>Pandas </p1>
+                <p1>Numpy</p1>
+                <p1>Tensorflow</p1>
+                <p1>NLP</p1>
+                <p1>Tokenizer</p1>
+            </div>
+            <div class="lin">
+                <a href="https://github.com/25sudharsan27/deeplearning-ai-models">Click me</a>"
+            </div>
+            </div>
+            
+        </div>
+        <div class="description">
+            <p1 id="date">Spam-or-Ham</p1>
+            <p2 id="contributors">Contributors: Sudharsan B</p2>
+            <div class="description1">
+                <div class="description1a">
+                    <p1 id="date1">Date</p1>
+                    <p2 id="date2">July 2023</p2>
+                </div>
+                <div class="description1b">
+                    <p1 id="date1">Description</p1>
+                    <p2 id="date2">Jun 2023 - Jul 2023
+                        In this project I created Deep learning AI model through the CSV data which I derived from online.</p2>
+            </div>
+        </div>
+    </div>
+    </div>
+    <hr style="margin-top:40px;border: 1px dashed white;    rotate: 0 0 1 -2deg;" />
+    <hr style="border: 1px dashed white;    rotate: 0 0 1 -2deg;" />
+   <div class="skil">
+    <div id="b" class="skil1">
+        <h1 class="oriskil">Skills</h1>
+    </div>
+    <div class="ski">
+        <div class="skil2">
+        <div class="skil3">
+            <img src="skills/website-removebg-preview.png" height="200vh" width="200vh" alt="">
+            <h1 class="skil4">Web Development</h1>
+        </div>
+        <div class="skil3">
+            <img src="skills/app-removebg-preview.png" height="200vh" width="200vh" alt="">
+            <h1 class="skil4">App Development</h1>
+        </div>
+        <div class="skil3">
+            <img id="deepl" src="skills/deep-PhotoRoom.png-PhotoRoom.png" height="200px" width="300px" alt="">
+            <h1 class="skil4">AI ML models</h1>
+        </div>
+        <div class="skil3">
+            <img src="skills/desktop-PhotoRoom.png-PhotoRoom.png" height="200px" width="200px" alt="">
+            <h1 class="skil4">Desktop App Dev</h1>
+        </div>
+    </div>
+    </div>
     
+   </div>
+   <script src="./animation.js"></script>
+
 
 </body>
-
+<footer>
+    <div id="c" class="footer">
+        <div class="about">
+            <div class="aa">
+                <h1>About me</h1>
+                <div class="ab">
+                    <h2>Sudharsan B</h2>
+                    <h2>B.Tech CSE @ LPU </h2>
+                </div>
+            </div>
+            <div style="height:3cm; background-color:white;width:1px"></div>
+            <div class="aa">
+                <div  class="ab">
+                    <a href="https://github.com/25sudharsan27"><img src="icons8-github.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/in/sudharsan-baskaran-182bb4255/"><img src="icons8-linkedin.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <h1>Copyright @ Portfolio Website Sudharsan B 2023</h1>
+        </div>
+        
+    </div>
+</footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
